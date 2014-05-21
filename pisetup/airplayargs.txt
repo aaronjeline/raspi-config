@@ -1,0 +1,3 @@
+Argument to add to /etc/init.d/shairport
+
+DAEMON_ARGS="-w $PIDFILE -a AirPi"
