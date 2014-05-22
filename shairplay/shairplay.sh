@@ -23,6 +23,11 @@ cd /etc/init.d
 sudo chmod a+x shairport
 sudo update-rc.d shairport defaults
 
+#Add Aliases
+echo adding bash shortcuts...
+echo "alias hap=\"sudo /etc/init.d/shairport stop\"
+alias sap=\"sudo /etc/init.d/shairport start\"
+alias rap=\"sudo /etc/init.d/shairport restart\"" >> /home/pi/.bashrc
 #Clean up
 echo cleaning up...
 sudo rm -rf /home/pi/perl-net-sdp
