@@ -4,7 +4,7 @@ sudo raspi-config
 echo updating/installing packages
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install vim zip -y
+sudo apt-get install vim zip tmux -y
 echo done
 cp pibash ~/.bashrc
 echo configured bash
