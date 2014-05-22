@@ -23,6 +23,10 @@ cd /etc/init.d
 sudo chmod a+x shairport
 sudo update-rc.d shairport defaults
 
-#Reboot
-echo REBOOTING!
-sudo reboot
+#Clean up
+echo cleaning up...
+sudo rm -rf /home/pi/perl-net-sdp
+sudo rm -rf /home/pi/shairport
+
+#Display reminder
+echo Don\'t forget to modify /etc/init.d/shairport. Check airplayargs.txt
