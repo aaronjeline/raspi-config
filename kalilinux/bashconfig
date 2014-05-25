@@ -1,0 +1,5 @@
+alias cls="clear"
+alias editbash="vim ~/.bashrc"
+alias pack="zip -r package.zip"
+alias unpack="unzip package.zip; rm package.zip"
+alias ship="scp package.zip"
