@@ -1,0 +1,11 @@
+#Aaron Eline
+
+#aliases
+##Commands
+alias cls="clear"
+alias rjar="java -jar"
+alias pack="zip -r package.zip"
+alias unpack="unzip package.zip; rm package.zip"
+alias ship="scp package.zip"
+alias commit="git commit -a -m"
+alias editbash="vim ~/.bashrc"
